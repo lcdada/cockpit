@@ -38,7 +38,7 @@
 					this.config ={
 						 index: true,
 						 header:['隐患描述','所属单位','整改时长与时限'],
-						 rowNum:5,
+						 rowNum:6,
 						 index: true,
 						 align: ['center', 'center','center'],
 						 data:arrlistresult,
@@ -53,7 +53,7 @@
 <style lang="stylus" scoped>
 	.right-center{
 		width: 100%;
-		height: 27%;
+		height: 31%;
 		// background: #789333;
 		z-index: 999;
 	}

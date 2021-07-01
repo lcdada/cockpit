@@ -52,6 +52,11 @@ module.exports = {
 					'^/api': '/'
 				}
 			}
-		}
+		},
+		configureWebpack: {
+		        externals: {
+		          'AMap': 'AMap' // 高德地图配置
+		        }
+		    },
 	}
 }

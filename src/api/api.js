@@ -62,7 +62,7 @@ export default{
 	 postFormAPI(params){
     	return http.post(`${resquest}/srp/mc/mc-cockpit!findCockpitMdPdate.action`,params)
 	},
-	// 隐患播报
+	// 隐患播报 /风险管控
 	 hiddenDangerBroadcast(params){
 		return http.post(`${resquest}/srp/mc/mc-cockpit!findCockpitTenminutes.action`,params)
 	},
